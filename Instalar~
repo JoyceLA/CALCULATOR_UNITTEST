@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+import unittest
+
+class TestEjemplo(unittest.TestCase): #Formato de la herencia
+	def test(self):
+		pass #Numero automatico que regresa non
+	det test_2(self):
+		assert
