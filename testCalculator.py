@@ -5,8 +5,7 @@ from Calculator import Calculator
 
 
 class TestCalculator(unittest.TestCase):
-
-    """# PRUEBAS DE SUMAS"""
+    # PRUEBAS DE SUMAS
 
     def test_suma_2_mas_2(self):
         '''self se refiere al mismo objeto/por convencion
@@ -21,7 +20,7 @@ class TestCalculator(unittest.TestCase):
     def test_suma2_x_mas_y(self):
         cal = Calculator()
         self.assertEqual(4, cal.summa(2, 2))
-    '''# PRUEBAS DE RESTA'''
+    # PRUEBAS DE RESTA
 
     def test_resta_30_menos_X(self):
         cal = Calculator()
@@ -34,7 +33,7 @@ class TestCalculator(unittest.TestCase):
     def test_resta2_X_menos_Y(self):
         cal = Calculator()
         self.assertEqual(-52, cal.resta(-32, 20))
-    '''# PRUEBAS DE DIVISION'''
+    # PRUEBAS DE DIVISION
 
     def test_divide_30_entre_10(self):
         cal = Calculator()
@@ -47,7 +46,7 @@ class TestCalculator(unittest.TestCase):
     def test_divide2_X_entre_Y(self):
         cal = Calculator()
         self.assertEqual(11, cal.divide(33, 3))
-    '''# PRUEBAS DE MULTIPLICACION'''
+    # PRUEBAS DE MULTIPLICACION
 
     def test_multiplica_4_por_15(self):
         cal = Calculator()
